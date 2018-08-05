@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum 1, Prologus, Pars II, quaestio 3 [Troyes Transcription]</title>
+        <author>Augustinus de Ancona</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.04">
+          <title>Librum 1, Prologus, Pars II, quaestio 3 [Troyes Transcription]</title>
+          <date when="2015-04-04">April 04, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-04-04">April 04, 2015</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T">Troyes, Bibl. Munc. 296</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-04-04" who="#JW" status="draft" n="2015.04">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ada-l1prolp2q3">
+      <head>Prologus, pars II, q. 3 [Troyes Transcription]</head>
+      <div>
+        <head>Utrum solus Deus hanc scientiam doceat?]</head>
+        
+        <p>Tertio quaeritur utrum solus Deus hanc scientiam doce
+<lb ed="#T"/>at?</p>
+        
+        <div>
+          <head>[Sic et non]</head>
+          <p>Et videtur quod non, quia Deus non habet proportionem 
+            <lb ed="#T"/>ad nos, cum ipse sit immensibilis et naturae intellectualis et care 
+            <lb ed="#T"/>at omni phantasmate; sed proportionem oportet esse inter 
+            <lb ed="#T"/>magister et discipulum. Cum igitur nos recipiamus scientia me<lb ed="#T"/>diantibus 
+            sensibus et ipse Deus careat sensu, videtur quod nos 
+            <lb ed="#T"/>docere non possit.</p>
+        
+        <p>Praeterea nihil est in intellectum quin prius fuerint in 
+          <lb ed="#T"/>sensu. Sed ipsa divina de quibus principaliter est ista scientia 
+          <lb ed="#T"/>numquam fuerunt in sensu, ergo numquam possunt esse in intellectum; non ergo Deus hanc scientiam potest nos docere.</p>
+        
+        <p>In contrarium: quia habi<lb ed="#T"/>tus 
+          istius scientiae est nobis a Deo infusus, sed ab illo homo 
+          <lb ed="#T"/>doceatur a quo habitu scientiae recipit. Cum igitur talem habitum unus 
+          <lb ed="#T"/>quisque fidelis recipiat a Deo, consequenter quod solum ab ipso haec 
+          <lb ed="#T"/> scientia doceatur.</p>
+        
+        <p>Praeterea <name ref="#Augustine">Augustinus</name> dicit in fine libri <title>De disciplina
+<lb ed="#T"/>na Christiana</title> 
+          quod: <quote xml:id="p3d3QAchieit" type="ChurchFather">"Cathedram habet in caelis cuius scola est in ter
+<lb ed="#T"/>ra."</quote><note target="#p3d3QAchieit"><name>Augustinus</name>, <title>De
+            disciplina Christiana</title>, 15 (CAG 7, 223)</note>
+        </p>
+        </div>
+        <div>
+          <head>[Responsio]</head>
+        
+        <div><head>[Opinio aliquorum]</head>
+          
+          <p>Responsio: dicendum quod aliqui dicunt duo esse requirenda ad 
+<lb ed="#T"/>hoc, quod in aliquo doctrina causetur.</p>
+        
+        <p>Primum est lumen; <lb ed="#T"/>Secundum est ordinatio specierum. Nam sicut ad hoc, quod visio
+          causetur in <lb ed="#T"/>oculo requiritur, primo lumen, quia sine lumen non sit visio, 
+          <lb ed="#T"/>cum color non moveat visum nisi per actum lucidi, ut dicitur 
+          <lb ed="#T"/>in IIo <title ref="#deAnima">De anima</title>. Secundo requiritur ordo specierum, quia oportet res visi<lb ed="#T"/>biles
+          diametraliter se offerre oculo, ut fiat visio. Nam, 
+          <lb ed="#T"/>cum species rei visibiles per totum acrem se multiplicent, si quaelibet 
+          <lb ed="#T"/>multiplicatio sufficeret ad visionem causandam, ita videret 
+          <lb ed="#T"/>homo post se sicut ante se.</p> 
+          
+          <p>Sic ut dicunt ad hoc, quod sciamus, requiritur 
+            <lb ed="#T"/>primo lumen intellectus potentialis, qui est omnia fieri, et lumen intellectus 
+            <lb ed="#T"/>agentis, qui est omnia facere. Secundo requiritur ordinatio specierum, 
+            <lb ed="#T"/>quia sicut eaedem litterae uno modo ordinatae faciunt syllabas, quae 
+            <lb ed="#T"/>aliter ordinatae nihil construunt, ita eadem verba uno <del rend="strikethrough">oportet <lb ed="#T"/>modo</del> 
+            ordine prolata a generant scientiam, quae aliter prolata 
+            <lb ed="#T"/>nihil faciunt scire.</p>
+        
+        <p>Dupliciter ergo, ut dicunt, aliquis potest 
+          <lb ed="#T"/>alium docere: vel quantum ad lumen vel quantum ad ordinem 
+          <lb ed="#T"/>specierum. Quantum ad lumen dupliciter: vel lumen de novo cre<lb ed="#T"/>ando, 
+          et sic docet solus Deus, vel lumen creatum confortan<lb ed="#T"/>do, 
+          et sic potest <corr><del rend="strikethrough">dece</del></corr> docere angelus, quia lumen intellectus nostri<lb ed="#T"/> 
+          ad praesentiam luminis substantiae separatae magis roboratur. Vel 
+          <cb ed="#T" n="9va"/><lb ed="#T"/>species ordinando, et sic potest docere homo inquantum aliqua 
+          <lb ed="#T"/>ordinare dicit vel scribit propter quae audiens vel intelli<lb ed="#T"/>gens 
+          movetur ad scientiam capiendam.</p> 
+          
+        </div>
+          <div>
+            <head>[Contra istam opinionem]</head>
+            
+          <p>Sed hoc, non videtur esse 
+            <lb ed="#T"/>sufficientur dictum: maxime de illo quod dictum est de praesentia lu<lb ed="#T"/>minis 
+            substantiae separatae ad lumen intellectus nostri. Nam si ex prae<lb ed="#T"/>sentia 
+            luminis substantiae separatae lumen nostri intellectus confortaretur, 
+            <lb ed="#T"/>aut hoc esset, quia ipse angelus mentem nostram illaberetur, 
+            <lb ed="#T"/>aut quia per suum lumen nostro lumini uniretur, aut quia novum 
+            <lb ed="#T"/>lumen per eius praesentiam nostro intellectui infunderetur, vel quia 
+            <lb ed="#T"/>per eius praesentiam novum lumen de potentia nostri intellectus 
+            <lb ed="#T"/>educeretur.</p>
+            
+            <p>Primo modo esse non potest, quia nulla substantia 
+              <lb ed="#T"/>creata potest illabi essentia alterius.</p>
+            
+            <p>Nec potest esse secundo modo, 
+              <lb ed="#T"/>quia cum lumen angelum sit maius lumine intellectus nostri, 
+              <lb ed="#T"/>ex praesentia eius nostrum lumen non fortificaretur, sed magis 
+              <lb ed="#T"/>corrumperetur, sicut ex praesentia maioris luminis, corrumpitur 
+              <lb ed="#T"/>lumen minus.</p>
+        
+            <p>Nec potest esse tertio modo, quia si angelus 
+              <lb ed="#T"/>posset aliquod lumen novum nobis infundere, posset cre<lb ed="#T"/>are, 
+              quod nulli creaturae convenit.</p>
+            
+            <p>Nec istud potest esse 
+              <lb ed="#T"/>quarto modo, ut quod educatur de potentia nostri intellectus, 
+              <lb ed="#T"/>quia nihil educitur de aliquo, nisi praeexistat ibi; oporteret 
+              <lb ed="#T"/>igitur in nobis praeexistere aliquod lumen nobis occultum, quod 
+              <lb ed="#T"/>ad praesentiam agentis fieret immanifesto, et sic nostrum 
+              <lb ed="#T"/>discere esset reminisci, ut Plato dicebat.</p>
+            
+            <p>Cum igitur ista omnia 
+            <lb ed="#T"/>sint inconvenientia, inconveniens est ponere: ad praesentiam luminis 
+            <lb ed="#T"/>substantiae separatae nostrum lumen confortari, et per hoc, in nobis aliquam 
+            <lb ed="#T"/>scientiam causari. Unde illimet qui istud posuerunt, videntes hoc 
+            <lb ed="#T"/>esse impossibile, in alio loco retractaverunt et reprobaverunt il<lb ed="#T"/>los qui hunc modum 
+            loquendi habuerunt. </p>
+          </div>
+          
+        <div>
+          <head>[Opinio Ancona: Quinque via docendi]</head>
+          
+        <p>Dicamus ergo 
+          <lb ed="#T"/>alia via incedendo unum posse alium docere, V modis.</p>
+        
+        <p><lb ed="#T"/>Primo: lumen creando, et sic praedictum lumen infundendo.</p>
+        
+        <p>Secundo: 
+          <lb ed="#T"/>lumen eius determinando et uniendo. </p>
+        
+        <p>Tertio: speciem in 
+          <lb ed="#T"/>telligibilem imprimendo.</p>
+        
+        <p>Quarto: propositionem et sermonem 
+          <lb ed="#T"/>ex illa impressione formando.</p>
+        
+        <p>Quinta: illas propositio 
+          <lb ed="#T"/>nes et sermones formatos aliis exprimendo et
+          expo<lb ed="#T"/>nendo.</p>
+        
+        <p>Primo modo possumus docere quod hanc doctri<lb ed="#T"/>na 
+          docet solus Deus, quia cum ista scientia innitatur immedia<lb ed="#T"/>te 
+          lumeni fidei. Sicut lumen nobis est a Deo infusum et 
+          <lb ed="#T"/>creatum, sic oportet praedictam doctrinam tali lumini immediate<app><lem>immediate</lem><rdg wit="corr."><subst><del>inmente</del><add>immediante</add></subst></rdg></app> 
+          <lb ed="#T"/>solum a Deo nobis esse inspiratam. Ideo <ref><title ref="#IIpetr">II Petri</title>, primo capitulo</ref> 
+          <lb ed="#T"/>dicitur quod: <quote>"Spiritu Sancto inspirati locuti sunt Dei homines,"</quote> et per 
+          <lb ed="#T"/>prophetam scribitur quod: <quote>"ipse Deus est
+          quid docet hominem scientiam."</quote> </p>
+        
+        <p><lb ed="#T"/>Secundo modo docere ipse angelus. Nam, cum 'scire' sit 'causam rei con<lb ed="#T"/>gnoscere'
+          secundum doctrinam <name>Philosophi</name>, ille proprie dicitur 'alium docere', 
+          <lb ed="#T"/>qui 'facit eum causam aliquam <corr><del rend="strikethrough">qui</del><add place="inline">cuius</add></corr> cognoscere. Immo, non solum 
+          <lb ed="#T"/>in scientia acquisita, verum etiam in scientia inventa, hoc habet 
+          <cb ed="#T" n="9vb"/><lb ed="#T"/>veritatem, quia sive sit inveniens per se ipsum sive <corr><del rend="strikethrough">adipiscens</del>
+          <lb ed="#T"/><add place="inline">addiscens</add></corr> ab alio. Ille proprie dicitur <mentioned>'scire'</mentioned> quando causam rei co<lb ed="#T"/>gnoscit; 
+          verum, quia inveniens per se ipsum scientiam antequam 
+          <lb ed="#T"/>causam inveniat, intellectus eius est dispersus et divisus, quia 
+          <lb ed="#T"/>fertur in diversa addiscens vero habet intellectum unicum, 
+          <lb ed="#T"/>eo quod simul proponitur sibi effectus cum causa. Ideo difficilius 
+          <lb ed="#T"/>est invenire quam addiscere. Hic igitur modo angelus potest 
+          <lb ed="#T"/>nostrum lumen confortare, et angelus superior potest an<lb ed="#T"/>gelum 
+          inferiorem illuminare, quia angeli multa sciunt et 
+          <lb ed="#T"/>multa vident in divina essentia, quae nos ignora<lb ed="#T"/>mus. 
+          Ex hoc igitur quod nobis illa tenebant nostrum lumen 
+          <lb ed="#T"/>determinatur et unitur, ut sicut antequam sciamus, noster intellectus 
+          <lb ed="#T"/>vacillat et fertur in diversa, sic, postquam scimus 
+          <lb ed="#T"/>et causam rei cognoscimus, noster intellectus unitur et determinatur, 
+          <lb ed="#T"/>sic etiam angelus superior plura videt et limpidius 
+          <lb ed="#T"/>et clarius cognoscit aliqua in lumen gloriae vel in divina 
+          <lb ed="#T"/>essentia quam angelus inferior; potest angelus superior illa, 
+          <lb ed="#T"/>quae sic clare cognoscit, angelo inferiori revelare, 
+          <lb ed="#T"/>ex qua revelatione incipit angelus inferior cognos<lb ed="#T"/>cere 
+          prius non cognoscebat, et eius lumen unitur et determina<lb ed="#T"/>tur, 
+          sicut prius erat sparsum et diversum. Et per consequens
+          <lb ed="#T"/>lumen eius dicitur esse fortificatum, quia virtus unita for<lb ed="#T"/>tior 
+          est se ipsa dispersa. Per hunc ergo modum hanc doctri<lb ed="#T"/>nam 
+          potest docere ipse angelus. Ideo, de multis quae in 
+          <lb ed="#T"/>hac sacra doctrina continentur, per revelationes an<lb ed="#T"/>gelorum 
+          edocti sumus.</p>
+        
+        <p>Tertio modo hanc scientiam do<lb ed="#T"/>cuit 
+          ipse Christus inquantum homo. Nam sicut<app><lem>sicut</lem><rdg><unclear>vitas</unclear></rdg></app> homo 
+          <lb ed="#T"/>potest imprimere speciem intelligibilem in intellectum alterius indirecte, 
+          <lb ed="#T"/>imprimendo aliquid in sensu, ex qua impressione formatur 
+          <lb ed="#T"/>idolum et similitudo in phantasia, et ex phantasmate 
+          <lb ed="#T"/>illo, virtute intellectus agentis, gignitur species intelligibilis 
+          <lb ed="#T"/>in intellectu potentiali, sic ipse Christus, secundum quod homo per suam incar<lb ed="#T"/>nationem, 
+          impressit sensibus suorum discipulorum et aliorum cre<lb ed="#T"/>dentium
+          mysterium suae incarnationis passionis, resurectio<lb ed="#T"/>nis 
+          et ascensionis, et aliquo modo mysterium divinitatis 
+          <lb ed="#T"/>per diversorum miraculorum operationes. Ex quorum impressione,
+          <lb ed="#T"/>receperunt species intelligibiles in intellectu, per quas doceri po<lb ed="#T"/>terant 
+          de omnibus quae in hac doctrina continentur. Unde ipse 
+          <lb ed="#T"/><name>Christus</name> dicebat eis:<note target="#pq3QBboqqvv"><title>Lucas</title> 10;23</note> <quote xml:id="p2q3QBboqqvv" ana="#lc10_23">"beati
+          oculi qui vident quae vos videtis"</quote>; 
+          <lb ed="#T"/>et <name ref="#Augustine">Augustinus</name> dicit in libro <title>De disciplina Christiana</title> quod:<note target="#p2q3QAmqddsm"><name>Augustinus</name>, <title>De disciplina Christiana</title> 15 (15 (CAG 7, lnumber?)</note> 
+          <lb ed="#T"/><quote xml:id="p2q3QAmqddsm" type="ChurchFather">"Magister, qui docet hanc scientiam, non est qualiscumque homo 
+            <lb ed="#T"/>sed Christus, qui propter nos incarnatus est, pannis mortali
+            <lb ed="#T"/>litatis circundatus, propter nos esurivit et sitivit, propter 
+            <lb ed="#T"/>nos lassus ad puteum sedit, per quae omnia ipse ca<lb ed="#T"/>put 
+            existens docuit sua membra."</quote></p>
+          
+          <p>Quarto modo 
+            <cb ed="#T" n="10ra"/><lb ed="#T"/>hanc scientiam docuerunt Apostoli, qui ex speciebus <corr>intelligi<del rend="strikethrough">bus</del><lb ed="#T"/>bilibus,</corr> 
+            quas habebant de hiis quae per sensus audi<lb ed="#T"/>erunt 
+            et viderunt de Christo debitas propositiones et debitos 
+            <lb ed="#T"/>sermones formaliter et praesentes, docebant; et propter fictos et 
+            <lb ed="#T"/>absentes in Scriptis redigebant. Unde ideo <ref><name ref="#Iio">Ioannes</name> in prima 
+            <lb ed="#T"/>canonica sua</ref> dicit quod: <quote xml:id="p2q3QBaevvan" ana="#Iio1_1 #Iio1_2">"audivimus et vidimus oculis no<lb ed="#T"/>stris 
+              et manus nostrae pertractaverunt de verbo vitae", hoc 
+              <lb ed="#T"/>supple, "annuntiamus nobis".</quote></p>
+          
+          <p>Quinto modo docent istam 
+            <lb ed="#T"/>scientiam doctores et praedicatores qui nunc sunt, qui illa, 
+            <lb ed="#T"/>quae conscripta sunt per prophetas et apostolos de mysterio Trinitatis 
+            <lb ed="#T"/>et de Christo incarnato, aliis inferioribus exprimunt et ex<lb ed="#T"/>ponunt; 
+            unde <ref><name ref="#JohnDamascenus">Damascenus</name> primo libro et capitulo</ref> ait: <!-- Ioannes Damascenus, De fide Orthodoxa, I, c. 1 (792, 30 (p. 12 of Franciscan Institute edition 1955) --> <quote xml:id="p2a3QJoqtuhi" type="ChurchFather">"omnia 
+            <lb ed="#T"/>quae tradita sunt nobis per legem prophetis et apostolos et 
+              <lb ed="#T"/>evangelistas suscipimus et venerantur et cognoscimus, 
+              <lb ed="#T"/>nihil ultra haec inquirentes."</quote></p>
+        </div>
+          </div>
+        <div>
+          <head>[Responsio ad argumenta]</head>
+        <p>Ad primum ergo dicendum, licet 
+          <lb ed="#T"/><name>Christus</name> secundum quod Deus sit nobis improportionaliter, secundum causam quod 
+          <lb ed="#T"/>homo ad nos proportionem habuit. Ideo ipse perfecte hanc 
+          <lb ed="#T"/>scientiam docuit. Vel potest dici quod Deus docet hanc 
+          <lb ed="#T"/>scientiam <corr><del rend="strikethrough">docuit</del></corr> principaliter lumen infundendo, et per sub<lb ed="#T"/>iectam 
+          creaturam potest ipsam docere exterioribus sensibus <lb ed="#T"/>se demonstrando.</p>
+        
+        <p>Ad secundum dicendum quod licet ipsa divina non <lb ed="#T"/>sint 
+          in sensis secundum se, sunt tamen in sensu per 
+          <lb ed="#T"/>suos effectus per quorum cognitionem manuducimur 
+          <lb ed="#T"/>in cognitionem eorum, et sic supernaturalem, praesupposito tamen 
+          <lb ed="#T"/>lumine fidei.</p>
+          
+        </div>
+      </div>
+      </div>
+    </body>
+  </text>
+</TEI>

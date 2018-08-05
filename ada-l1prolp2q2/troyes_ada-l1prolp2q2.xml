@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum 1, Prologus, Pars II, quaestio 2 [Troyes Transcription]</title>
+        <author>Augustinus de Ancona</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.04">
+          <title>Librum 1, Prologus, Pars II, quaestio 2 [Troyes Transcription]</title>
+          <date when="2015-04-04">April 04, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-04-04">April 04, 2015</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T">Troyes, Bibl. Munc. 296</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-04-04" who="#JW" status="draft" n="2015.04">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ada-l1prolp2q2">
+        <head>Prologus, pars II, q. 3 [Troyes Transcription]</head>
+      <div>
+              <head>[Utrum habitus istius scientiae differat ab habitu fidei?]</head>
+        
+        <p>Secundo quaeritur utrum habitus istius scientiae differat 
+          <lb ed="#T"/>ab habitu fidei.</p>
+        
+        <div>
+          <head>[Pro et Contra]</head>
+        
+          <p>Et videtur quod sic, quia distinctus est 
+            <lb ed="#T"/>habitus principiorum et conclusionum, ut patet per <ref><name ref="#Aristotle">Philosophum</name> VI <title ref="#Ethics">Ethicorum</title>.</ref>  
+            <lb ed="#T"/>Sed fides est habitus principiorum et articulorum fidei; scientia autem 
+            <lb ed="#T"/>nominat habitum conclusionum. Ergo videtur quod habitus istius scientiae rea 
+            <lb ed="#T"/>liter distinguatur ab habitu fidei.</p> 
+          
+          <p>Praeterea: quando aliqua duo 
+            <lb ed="#T"/>sunt unum realiter, ubicumque reperitur unum, invenitur reliquum. 
+            <lb ed="#T"/>Si ergo habitus et habitus istius scientiae sunt idem realiter 
+            <lb ed="#T"/>quicumque haberet unum, haberet reliquum. Sed hoc est contra <ref><name ref="#Augustine">Augustinum</name> 
+              <lb ed="#T"/>XIV <title ref="#deTrinitate">De Trinitate</title> capitulo primo,</ref> ubi ait:<quote xml:id="pp2q2QAqmppis" ana="#Augustine_deTrinitate_14_1_3_b">"quod multi pollent 
+              <lb ed="#T"/>ipsa fide qui non pollent ista scientia."</quote></p> 
+          
+          <p>Praeterea: quaecumque 
+            <lb ed="#T"/>numerantur adinvicem, oportet esse distincta. Sed scientia ponit 
+            <lb ed="#T"/>in numerum cum ipsa fide, ut patet per <ref ana="#Icor12_8 #Icor12_9"><!-- clear example of ref without quote --><name ref="#Paul">Apostolum</name> <title ref="#Icor">Ia 
+            <lb ed="#T"/>Ad Corinthios</title> XII,</ref> ubi tam fides quam scientia numer<lb ed="#T"/>antur 
+            inter dona datis grata.</p> 
+          
+          <p>In contrarium est, quia si habi<lb ed="#T"/>tus 
+            istius scientiae esset alius ab habitu fidei, cum uterque 
+            <cb ed="#T" n="8va"/><lb ed="#T"/>esset infusus, oporteret ponere duplex lumen infusum, quod 
+            <lb ed="#T"/>reprobatum est in superiori quaestione.</p> 
+          
+          <p>Praeterea: habitus distinguuntur 
+            <lb ed="#T"/>per actus, sed unus est actus fidei et istius doctrinae de 
+            <lb ed="#T"/>articulis fidei, quia credere ergo erit habitus unus utriusque.</p> 
+        
+        </div> 
+        
+        <div> 
+          <head>Responsio et divisio quaestionis</head>
+          <p><lb ed="#T"/>Responsio: dicendum quod, ad dissolutionem istius quaestionis, oportet primo videre 
+            <lb ed="#T"/>quomodo ista termina, 'intellectus', 'scientia', et 'sapientia' dixerunt, ut sunt habitus 
+            <lb ed="#T"/>intellectuales, et ut sunt dona gratam facientia, et ut sunt do<lb ed="#T"/>na 
+            gratis data.</p> 
+          
+          <p>Secundo adducere aliquas rationes ostendentes 
+            <lb ed="#T"/>habitum istius scientiae, ut est de hiis quae naturalem rationem excedunt, 
+            <lb ed="#T"/>non distingui ab habitu fidei.</p> 
+          
+          <p>Tertio solvemus illa 
+            <lb ed="#T"/>quae videntur difficultatem facere in proposito.</p> 
+        </div> 
+        <div>
+          <head>[Prima pars]</head> 
+          <div> 
+            <head>[Habitus intellectuales]</head> 
+              <p>Propter primum 
+                <lb ed="#T"/>sciendum quod secundum <ref><name ref="#Aristotle">Philosophum</name> VI <title ref="#Ethics">Ethicorum</title>,</ref> <!--Aristotles</name>, <title>N. Ethica</title>, VI, c. ?, bekker# --> quinque sunt habitus intellectua<lb ed="#T"/>les, 
+                <corr><add place="margin">scilicet</add></corr>, intellectus, scientia, sapientia, prudentia, et ars. Nam intellectus 
+                <lb ed="#T"/>noster <corr>speculativus <!-- some sort of correction here --></corr> et practicus. Speculatio ergo intellectus habet 
+                <lb ed="#T"/>perfici triplici habitu.</p> 
+            
+            <p>Primo <supplied>potest perfici</supplied> habitu principiorum, et talis habi<lb ed="#T"/>tus 
+              vel notitia vocatur intellectus. Nam quandocumque potentia fertur 
+              <lb ed="#T"/>in aliquid non discurrendo nec perligendo, talis cognitio 
+              <lb ed="#T"/>vocatur eodem nomine quo nominatur potentia. Unde quia vo<lb ed="#T"/>luntas 
+              non perligendo, fertur in finem, et intellectus non dis<lb ed="#T"/>currendo 
+              fertur in principia. Ideo sicut volitio finis vocatur 
+              <lb ed="#T"/>voluntas, sic notitia principiorum vocatur intellectus <corr><del rend="strikethrough">et</del></corr>.</p> 
+            
+            <p><lb ed="#T"/>Secundo potest perfici habitu conclusionum istarum rerum inferiorum, 
+              <lb ed="#T"/>et talis habitus vocatur scientia. Nam de istis rebus inferioribus 
+              <lb ed="#T"/>quae <unclear>possunt</unclear> demonstrari ex primis principiis proprie, est scientia. Ideo 
+              <lb ed="#T"/>in eodem <ref>VI <title ref="#Ethics">Ethicorum</title></ref> dicitur quod scientia est habitus demonstrativus.</p> 
+            
+            <p><lb ed="#T"/>Tertio potest perfici habitu cognitionis superiorum causarum, et 
+              <lb ed="#T"/>talis habitus vocatur sapientia. Ideo in praedicto libro scribitur quod 
+              <lb ed="#T"/>sapientia est sicut caput, habens respectu scientiae.</p> 
+            
+            <p>Intellectus autem prac<lb ed="#T"/>ticus 
+                potest de istis agibilibus ratiocinari recte et non recte. 
+                <lb ed="#T"/>Ideo indiget habitu perficiente ipsum, et talis habitus vo<lb ed="#T"/>catur 
+                prudentia. <unclear>Unde</unclear> in praedicto libro prudentia dicitur 
+                <lb ed="#T"/>recta ratio agibilium.</p> 
+            
+            <p>Secundo, praedictus intellectus exit in opus, 
+              <lb ed="#T"/>et per voluntatem exequentem, operatur circa ipsa factibilia 
+              <lb ed="#T"/><unclear>dominifcando</unclear>, et habitus dirigens ipsum ad hoc dicitur ars. 
+              <lb ed="#T"/>Unde ibidem dicitur quod ars est recta ratio factibilium.</p> 
+            
+            <p>Et 
+              <lb ed="#T"/>dixerunt ergo intellectus, scientia, et sapientia, ut sunt habitus 
+              <lb ed="#T"/>intellectuales, quia intellectus est habitus principiorum. Scientia 
+              <lb ed="#T"/>vero est habitus conclusionum rerum inferiorum, sed sapientia est habi<lb ed="#T"/>itus 
+              cognitionis rerum superiorum.</p> 
+          </div> 
+          <div>
+            <head>[Dona Spiritus Sancti gratum facientia]</head>
+            <p>Secundo, dixerunt ut sunt 
+              <lb ed="#T"/>dona Spiritus Sancti gratum facientia. Nam per talia dona 
+              <lb ed="#T"/>anima coniungitur ipsi Deo. Talis autem coniunctio habet 
+              <lb ed="#T"/>fieri tripliciter.</p> 
+            
+            <p>Primo, ipsa credibilia nuda et aper<lb ed="#T"/>ta 
+              veritate fidei sine aliqua dubitatione contemplando.</p> 
+            
+            <p><lb ed="#T"/>Secundo ex praedicta veritate sic infallibiliter credita 
+              <lb ed="#T"/>et <corr><add>contemplata</add><del>contemplatata</del></corr>, alia inferiora iudicando et ordi<cb ed="#L" n="8vb"/><lb ed="#T"/>nando.</p> 
+            
+            <p><unclear reason="smudged">Tertio per quamdam certitudinem de istis inferiori<lb ed="#T"/>bus 
+              et humanis actibus supra humanum modum rectum[?] 
+              <lb ed="#T"/>iudicium prosendo[?] ac non solum bona per bonis quod isto secundum 
+              <lb ed="#T"/>humanum modum, sed etiam bona pro malis[?] reddendo. Pri<lb ed="#T"/>mum 
+              habet fieri per donum intellectus, quia secundum <name ref="#GregoryGreat">Gregorium</name> donum[?] intellectus[?] 
+              <lb ed="#T"/>de auditis per fidem, et de istis credibilibus in eadem[?] ad?ista?[?] quod[?] 
+              <lb ed="#T"/>habet fieri per donum sapientiae, quia sicut sapientis est ordinare et iudi<lb ed="#T"/>care, 
+              sic homo spiritualis per hoc donum omnia iudicat. Sed t?aum[?] 
+              <lb ed="#T"/>habet fieri per donum scientiae, quia per tale donum supra humanum modum 
+              <lb ed="#T"/>docetur homo conversari in medio parvae[?] nationis et perverse[?]</unclear></p> 
+          </div> 
+          <div> 
+            <head>[Dona Spiritus Sancti gratis datis]</head> 
+                
+                <p>Tertio, 
+                  <lb ed="#T"/>dixerunt ista ut sunt dona Spiritu Sancti gratis datis. Scientia[?] talia 
+                  <lb ed="#T"/>dona Deus non infundit omnibus, etiam sanctis et perfectis meritis[?]. 
+                  <lb ed="#T"/>Sed illis solum quos novit esse perfectos Ecclesiae et illorum salva<lb ed="#T"/>ti 
+                  prodesse, non quod etiam sanctis meritis[?] alum[?[ huiusmodi dona non tri<lb ed="#T"/>buantur, 
+                  sed pro tanto dicuntur praedicta <corr><del rend="strikethrough">gratis tribus naturam solum bonis</del></corr> <corr><add place="inline">ut</add><!-- dbcheck --></corr> dona gratis data, quia Deus ipsa gratis tri<lb ed="#T"/>buit, 
+                  non solum bonis, sed quandoque malis, propter sat[?] ecclesiae et 
+                  <lb ed="#T"/>aliorum fidelium utilitatem ista ib[?] volitas potest esse tri<lb ed="#T"/>plex.</p> 
+            
+            <p>Primo propter aliquam [1] superexcellentem fidei adhaes<lb ed="#T"/>ione.</p> 
+            
+            <p>Secundo propter aliquam [2 et 3] superexcellentem cognitionem, ut non 
+              <lb ed="#T"/>solum sciat firmiter, aliquis quid credere debeat per firmam 
+              <lb ed="#T"/>adhaesionem, sed etiam sciat ipsam fidem defendere et ali<lb ed="#T"/>os 
+              ad credendum inducere ac alios imbecilliores docere. 
+              <lb ed="#T"/>Et haec dupliciter, quia aut [2] per cognitionem rerum divinarum aut [3] per 
+              <lb ed="#T"/>cognitionem rerum humanarum.</p> <p>Primum habet fieri per donum fidei.</p> 
+            
+            <p><lb ed="#T"/>Secundum per donum sapientiae.</p> 
+            
+            <p>Sed tertio per donum scientiae.</p> 
+            
+            <p><lb ed="#T"/>Unde <ref><name ref="#Paul">Apostolus</name> <title ref="#Icor">prima Ad Corinthios</title> XII</ref> dicit quod <!-- quote --> alii 
+              <lb ed="#T"/>datur per Spiritum sermo sapientiae, alii sermo scientiae, alii fi<lb ed="#T"/>des 
+              in eodem Spiritu. Et quia ista dona non dantur omnibus, 
+              <lb ed="#T"/>ideo subditur ibi quod hic omnia operatur <unclear>initis[?]</unclear> atque idem 
+              <lb ed="#T"/>Spiritus dividens singulis prout vult.</p> 
+          </div> 
+        </div> 
+        <div>
+          <head>[Secunda pars]</head> 
+          
+          <p>Viso ergo quomodo 
+            <lb ed="#T"/>dixerunt ista, ut sunt habitus intellectuales, et ut sunt dona 
+            <lb ed="#T"/>gratis data, volumus aliquas rationes adducere osten<lb ed="#T"/>dentes 
+            habitum istius scientiae, ut est de ipsis credibilibus simpliciter, 
+            <lb ed="#T"/>non distingui ab habitu fidei. Possumus autem dicere 
+            <lb ed="#T"/>quod maior[?] inconvenientia sequerentur si habitus istius scientiae <corr>distingue<lb ed="#T"/>retur</corr> ab habitu fidei.</p> 
+          
+          <p>Nam primo sequeretur quod meri<lb ed="#T"/>itum 
+            fidei perderetur.</p> 
+          
+          <p>Secundo quod cognitio aenigmatica
+            <lb ed="#T"/>in hac vita <sic>consummarentur</sic>.</p> 
+          
+          <p>Tertio quod nobilissimus 
+              <lb ed="#T"/>habitus nobis occultaretur.</p> 
+          
+          <p>Quarto quod idem sciretur 
+            <lb ed="#T"/>et crederetur.</p> 
+          
+          <p>Primum sic patet: nam sicut secundum <name ref="#GregoryGreat">Beatum Gregorius</name>, 
+            <lb ed="#T"/>fides non habet meritum, ubi humana ratio probet experimen<lb ed="#T"/>tum. 
+            Sic si nobis aliquis habitus habet infusus istius scientiae 
+            <lb ed="#T"/>alius ab habitu fidei, oporteret quod duceret nos in cogni<lb ed="#T"/>tionem 
+            ipsorum credibilium certam et propter quid. <unclear reason="sense">Cum in cognitionem, 
+            <cb ed="#T" n="9ra"/><lb ed="#T"/>quia ducamus per habitum fidei et sic meritum fidei perderetur.</unclear></p> 
+          
+          <p><lb ed="#T"/>Secundum sic ostenditur: nam si in hac vita cognosceremus De 
+            <lb ed="#T"/>um per aliud lumen et per alium habitum distinctum 
+            <lb ed="#T"/>ab habitu fidei, oporteret cognitionem aenigmaticam in hac 
+            <lb ed="#T"/>vita consummari et terminari. Quod est contra <ref><name ref="#Augustine">Augustinus</name> IX <title ref="#deTrinitate">De Trinitate</title> 
+            <lb ed="#T"/>capitulo primo,</ref> ubi dicit quod certa fides ut cumque inchoat cognitio 
+            <lb ed="#T"/>nem. Sed cognitio certa non perficietur nisi post hanc vitam 
+            <lb ed="#T"/>cum videbimus Deum facie ad faciem.</p> 
+          
+          <p>Tertium sic de<lb ed="#T"/>claratur: 
+            nam si nobis esset talis habitus infusus, occulta 
+            <lb ed="#T"/>retur in nobis, cum nullus recta mente possit dicere se habe<lb ed="#T"/>re 
+            aliam cognitionem de credibilibus praeter cognitionem aenig<lb ed="#T"/>maticam, 
+            quae est cognitio fidei. Sed inconveniens est nobilissimos 
+            <lb ed="#T"/>habitus existere in nobis et latere nos ut dicitur <ref>IIo <title ref="#PosteriorAnalytics">Posteriorum</title>.</ref> 
+            <lb ed="#T"/>Ergo in nobis non est alius habitus nec aliud lumen praeter habi<lb ed="#T"/>tum 
+            fidei.</p> 
+          
+          <p>Quartum sic patet: Nam, cum per habitum fidei, 
+            <lb ed="#T"/>articuli fidei sint simpliciter credenti, oporteret quod per<lb ed="#T"/>istum 
+            habitum qui ponitur distingui ab habitu fidei tamquam 
+            <lb ed="#T"/>per nobiliorem et clariorem praedicti articuli essent simpliciter 
+            <lb ed="#T"/>scita. Idem ergo esset creditum et scitum, quod est impossibile.</p> 
+        </div> 
+        
+        <div>
+          <head>[Tertia Pars]</head> 
+              <p>Re<lb ed="#T"/>stat ergo ultimo solvere illa quae videntur facere difficul<lb ed="#T"/>tatem 
+                in proposito et sunt illa quae tacta fuerunt in arguen<lb ed="#T"/>do.</p> 
+          
+          <p>Primum ergo sic solvitur: nam licet in cognitione huma<lb ed="#T"/>na 
+            differat habitus conclusionum et habitus principiorum, hoc 
+            <lb ed="#T"/>pro tanto est quia habitus principiorum est quasi naturales. 
+            <lb ed="#T"/>Non quod anima oriatur naturabiliter cum tali habitu, sed quia ex 
+            <lb ed="#T"/>naturali lumine intellectus fertur in cognitionem talium sine a<lb ed="#T"/>liquo 
+            discursu. Habitus vero conclusionum est acquisitus per rationem et 
+            <lb ed="#T"/>discursum syllogisticum, ideo oportet istum ab illo differre. Sed 
+            <lb ed="#T"/>cognitio articulorum fidei et eorum quae sunt simpliciter credibi<lb ed="#T"/>lia 
+            nec est nobis naturalis ex lumine nostri intellectionis, nec potest 
+            <lb ed="#T"/>per nostram rationem investigari. Ideo de talibus sive supponantur 
+            <lb ed="#T"/>ut principia sive unum concludatur ex alio. Non est, nisi unum 
+            <lb ed="#T"/>lumen et unus habitus supernaturaliter infusus, qui est lumen fidei.</p> 
+          
+          <p>Utrum, quia in hac doctrina proponuntur 
+            <lb ed="#T"/>nobis multa credibilia, quae tamen humana ratione investi<lb ed="#T"/>gari 
+            possunt, sicut 'Deum esse, unum, et esse actum purum, vel 
+            <lb ed="#T"/>primum motorem et potentiae infinitae', quae de Deo probaverunt 
+            <lb ed="#T"/>etiam ipsi philosophi naturali ratione, ideo de talibus bene acquiritur 
+            <lb ed="#T"/>habitus distinctus ab habitu fidei? Sed nos quaerimus utrum 
+            <lb ed="#T"/>habitus istius scientiae differat ab habitu fidei quantum ad il<lb ed="#T"/>la 
+            quae sunt simpliciter credibilia et quae humana ratione investiga<lb ed="#T"/>ri 
+            non possunt.</p> 
+          
+          <p>Secundum autem sic solvitur: nam quantum ad 
+            <lb ed="#T"/>illa quae continentur in ista scientia, quae non excedunt nostrum 
+            <lb ed="#T"/> intellectum, multi pollent ipsa fide, qui non pollent hac 
+            <lb ed="#T"/>scientia. Similiter quantum ad illa, quae sunt simpliciter credibilia, 
+            <cb ed="#T" n="9rb"/><lb ed="#T"/>multi pollent ipsa cognitione fidei, ut simpliciter sciunt 
+            <lb ed="#T"/>quid credere debeant, qui non pollent cognitione et scientia prae<lb ed="#T"/>dicta, 
+            ut per eam contra impios fides defenditur et alii in<lb ed="#T"/>strunter 
+            in utriusque. Tamen est unus habitus fidei, non numero, sed 
+            <lb ed="#T"/>specie, quamvis clariori modo et cum aliquo effectu sit in maio<lb ed="#T"/>ribus 
+            quam in minoribus.</p> 
+          
+          <p>Ex hic autem patet solo ad tertium, quia 
+            <lb ed="#T"/>ideo scientia ponit in numerum cum fide, quia cognitio fidei eviden<lb ed="#T"/>tior 
+            et cum aliquo dono gratis dato vel gratum faciente potest 
+            <lb ed="#T"/>in uno quam in alio reperiri.</p> 
+        </div> 
+      </div> 
+      </div> 
+    </body> 
+  </text> 
+</TEI>
